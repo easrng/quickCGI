@@ -1,0 +1,13 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "abortcontroller-polyfill": "^1.7.5",
+    "core-js-pure": "^3.33.1",
+    "rollup": "^4.1.4"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "lint": {
+    "include": ["deps/src/", "."],
+    "exclude": ["deps/dist/", "cgi-bin/", "deps/src/encoding.js"],
+    "rules": {
+      "tags": ["recommended"],
+      "exclude": ["no-prototype-builtins"]
+    }
+  }
+}
